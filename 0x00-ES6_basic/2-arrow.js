@@ -1,4 +1,4 @@
-let getNeighborhoodsList6 = () => {
+const getNeighborhoodsList6 = () => {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
   const self = this;
