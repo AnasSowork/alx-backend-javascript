@@ -1,4 +1,4 @@
-export default getNeighborhoodsList6 = () => {
+export default function getNeighborhoodsList6() {
   this.sanFranciscoNeighborhoods = ['SOMA', 'Union Square'];
 
 
