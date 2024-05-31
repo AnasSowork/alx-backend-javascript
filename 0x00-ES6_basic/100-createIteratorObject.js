@@ -3,7 +3,7 @@ export default function createIteratorObject(report) {
   let employees = [];
 
   for (const department in allEmployees) {
-    if (allEmployees.hasOwnProperty(department)) {
+    if (Object.prototype.hasOwnProperty.call(allEmployees, department)) {
       employees = employees.concat(allEmployees[department]);
     }
   }
@@ -14,8 +14,10 @@ export default function createIteratorObject(report) {
     [Symbol.iterator]() {
       return {
         next() {
-          if (currentIndex < employees.length) {
-            return { value: employees[currentIndex++], done: false };
+          const value = employees[currentIndex];
+          currentIndex += 1;
+          if (currentIndex <= employees.length) {
+            return { value, done: false };
           }
           return { done: true };
         },
