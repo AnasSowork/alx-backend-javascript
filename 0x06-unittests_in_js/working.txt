@@ -1,0 +1,46 @@
+git add 0-calcul.js
+git commit -m '0-calcul.js'
+git add 0-calcul.test.js
+git commit -m '0-calcul.test.js'
+git add 10-api
+git commit -m '10-api'
+git add 1-calcul.js
+git commit -m '1-calcul.js'
+git add 1-calcul.test.js
+git commit -m '1-calcul.test.js'
+git add 2-calcul_chai.js
+git commit -m '2-calcul_chai.js'
+git add 2-calcul_chai.test.js
+git commit -m '2-calcul_chai.test.js'
+git add 3-payment.js
+git commit -m '3-payment.js'
+git add 3-payment.test.js
+git commit -m '3-payment.test.js'
+git add 4-payment.js
+git commit -m '4-payment.js'
+git add 4-payment.test.js
+git commit -m '4-payment.test.js'
+git add 5-payment.js
+git commit -m '5-payment.js'
+git add 5-payment.test.js
+git commit -m '5-payment.test.js'
+git add 6-payment_token.js
+git commit -m '6-payment_token.js'
+git add 6-payment_token.test.js
+git commit -m '6-payment_token.test.js'
+git add 7-skip.test.js
+git commit -m '7-skip.test.js'
+git add 8-api
+git commit -m '8-api'
+git add 9-api
+git commit -m '9-api'
+git add package.json
+git commit -m 'package.json'
+git add package-lock.json
+git commit -m 'package-lock.json'
+git add README.md
+git commit -m 'README.md'
+git add utils.js
+git commit -m 'utils.js'
+git add working.txt
+git commit -m 'working.txt'
